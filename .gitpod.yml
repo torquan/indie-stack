@@ -40,9 +40,6 @@ tasks:
   - init: npm install
     command: npm run setup && npm run dev
 
-vscode:
-  extensions:
-    - ms-azuretools.vscode-docker
-    - esbenp.prettier-vscode
-    - dbaeumer.vscode-eslint
-    - bradlc.vscode-tailwindcss
+jetbrains:
+  plugins:
+    - com.github.copilot
